@@ -84,3 +84,17 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# http://tech.kakao.com/2016/07/07/tech-blog-story/ 
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+    
+defaults:
+  - scope:
+    path: ''
+    type: tags
+  values:
+    layout: tag
+    
